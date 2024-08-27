@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: linen;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+/* Card */
+
+.card {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Heading Colors */
+.card-sporty h1 {
+    color: lightcoral;
+}
+.card-casual h1 {
+    color: lightseagreen;
+}
+.card-formal h1 {
+    color: lightslategrey;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.card a:hover {
+    opacity: 0.9;
+}
+
+/* Linked Colors */
+.card-sporty a {
+    background-color: coral;
+}
+.card-casual a {
+    background-color: seagreen;
+}
+.card-formal a {
+    background-color: slategray;
+}
+
+/* Background Image */
+.card-sporty {
+    background: #fff url(images/sporty.png) no-repeat center right/200px;
+
+}
+.card-casual {
+    background: #fff url(images/casual.png) no-repeat center right/200px;
+
+}
+.card-formal {
+    background: #fff url(images/formal.png) no-repeat center right/200px;
+
+}
